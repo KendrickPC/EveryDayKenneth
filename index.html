@@ -13,13 +13,18 @@
         
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/KendrickStyle.css">
-
+        <link rel="stylesheet" href="css/typejs.css">
         <link rel="stylesheet" type="text/css" href="css/zocial.css">
 <!-- Font Selection -->
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
         <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- type.js script -->
+        <script src="js/jquery-1.12.0.js"></script>
+        <script src="js/typed.js"></script>
+      
     </head>
   
   <body>
@@ -30,7 +35,18 @@
           <img src="images/oset-logo.svg" alt="logo" style="max-width: 40%"/>
         </div>
         <div class="col-md-6 text-right text-uppercase">
-          <h1 class="name-super text-thin">Type.js</h1>
+<!-- type.js element -->
+          <div class="element">element</div>
+          <h1 class="name-super text-thin">
+<script>
+$(function(){
+$(".element").typed({
+strings: ["First sentence.", "Second sentence."],
+typeSpeed: 0
+});
+});
+</script>  
+          </h1>
           <h3 class="title-super">Kenneth P. Chang</h3>
           <h5 class="title-little-super">Walking Forward Every Day</h5>
         </div>
