@@ -1,0 +1,48 @@
+body {
+	font-family: 'Baloo Tamma', cursive;
+	color: black;
+	font-weight: 300;
+}
+
+img, embed, 
+object, video {
+	max-width: 100%;
+}
+
+/*Make sure my buttons are able to be "hit"*/
+nav a, button {
+  min-width: 48px;
+  min-height: 48px;
+  padding: 1.5em;
+}
+
+
+.text-muted {
+	color: black;
+}
+.text-thin {
+	font-weight: bold;
+}
+
+.name-super {
+	font-size: 60px;
+}
+
+.name-logo {
+	margin-top: 20px;
+	/*left: 0px;*/
+}
+
+img.img-responsive {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+@media screen and (min-width: 992px) {
+.col-md-4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
