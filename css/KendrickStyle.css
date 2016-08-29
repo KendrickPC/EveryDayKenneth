@@ -1,48 +1,46 @@
 body {
-	font-family: 'Indie Flower', cursive;
-	color: black;
-	font-weight: 300;
+    font-family: 'Indie Flower',cursive;
+    color: #000;
+    font-weight: 300;
 }
 
-img, embed, 
-object, video {
-	max-width: 100%;
+img,embed,object,video {
+    max-width: 100%;
 }
 
 /*Make sure my buttons are able to be "hit"*/
-nav a, button {
-  min-width: 48px;
-  min-height: 48px;
-  padding: 1.5em;
+nav a,button {
+    min-width: 48px;
+    min-height: 48px;
+    padding: 1.5em;
 }
-
 
 .text-muted {
-	color: black;
+    color: #000;
 }
+
 .text-thin {
-	font-weight: bold;
+    font-weight: 700;
 }
 
 .name-super {
-	font-size: 40px;
+    font-size: 40px;
 }
 
 .name-logo {
-	margin-top: 20px;
-	/*left: 0px;*/
+    margin-top: 20px;
+/*left: 0px;*/
 }
 
 img.img-responsive {
-	margin-left: auto;
-	margin-right: auto;	
-}
-
-
-@media screen and (min-width: 992px) {
-.col-md-4 {
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (min-width: 992px) {
+    .col-md-4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
